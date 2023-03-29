@@ -1,0 +1,46 @@
+@media(min-width:600px){
+    .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-left: 10%;
+        margin-right: 10%;
+        border: 5px;
+        background-color: black;
+        
+    }
+}
+@media(max-width:599px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-left: 10%;
+            margin-right: 10%;
+        }
+    }
+.items{
+    width: 30%;
+    height: 30%;
+    border: 5px solid red;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: black;
+    color: white;
+    flex: auto;
+}
+.button{
+background-color: green;
+color: white;
+}
+body{
+    background-color: rgba(211, 211, 211, 0.75)
+}
+.up-buttons{
+    width: 300px;
+    height: 80px;
+    background-color: black;
+    color: white;
+    border-color: red;
+
+}
